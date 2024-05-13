@@ -33,7 +33,7 @@ body{
 
 
     /* >> 메인로고 위치(상하) 조정 << */
-    margin-top: 80%; /* 이미지 위쪽 여백을 설정하여 이미지를 아래로 내림 */
+    margin-top: 10%; /* 이미지 위쪽 여백을 설정하여 이미지를 아래로 내림 */
 }
 
 
@@ -46,7 +46,7 @@ body{
     position: relative; /* 상대값으로 위치 설정 */
     
     /* >> 메인 문구 위치(상하) 조정 << */
-    top: 30px; /* 텍스트를 아래로 내림 */
+    top: 20px; /* 텍스트를 아래로 내림 */
 }
 
 /* 화면이 작으면 폰트 크기를 줄임 */
@@ -65,6 +65,9 @@ body{
 .imageContainer {
     display: flex; /* 레이아웃 생성 */
     justify-content: center; /* 수평 가운데 정렬 */
+
+    /* >> 이미지 업로드 컨테이너 위치(상하) 조정 << */
+    margin-top: -5%; /* 이미지 위쪽 여백을 설정하여 이미지를 아래로 내림 */
 }
 
 /* 이미지 업로드 컨테이너에 대한 기본 속성 */
@@ -72,7 +75,6 @@ body{
     max-width: 300px; /* 이미지 최대 너비를 부모 요소의 너비에맞춤 */
     height: auto;   /* 이미지 높이를 너비에 비례하여 자동 조정 */
     cursor: pointer;
-    margin-top: 30%; /* 이미지 위쪽 여백을 설정하여 이미지를 아래로 내림 */
 }
 
 /* 파일 선택 버튼 없애기 --> 사진 클릭으로 변경 */
@@ -126,7 +128,7 @@ body{
     color: darkgray;
 
      /* >> 약관 위치(상하) 조정 << */
-    margin-top:-7px;
+    margin-top: -10px;
 }
 
 /* 약관 바로가기 (href) 밑줄 없애기 */
@@ -146,7 +148,7 @@ body{
     position: relative; /* 상대값으로 위치 설정 */
     
     /* >> 사용자 가이드라인(텍스트) 위치(상하) 조정 << */
-    top: 25px; /* 텍스트를 아래로 내림 */
+    top: 15px; /* 텍스트를 아래로 내림 */
 }
 
 /* 가이드라인 전체 사진에 대한 부모 요소 */
@@ -204,7 +206,7 @@ footer p {
 /* 모바일 환경에서 footer 배경색이 아래까지 꽉 차도록 만듭니다. */
 @media screen and (max-width: 768px) {
     footer {
-        padding-bottom: 100px; /* 모바일 환경에서 아래까지 꽉 차도록 padding 추가 */
+        padding-bottom: 50px; /* 모바일 환경에서 아래까지 꽉 차도록 padding 추가 */
     }
 
     footer::before {
