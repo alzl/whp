@@ -1,0 +1,37 @@
+[debug] [2024-05-26T20:27:39.310Z] ----------------------------------------------------------------------
+[debug] [2024-05-26T20:27:39.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\level\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-05-26T20:27:39.315Z] CLI Version:   13.10.1
+[debug] [2024-05-26T20:27:39.315Z] Platform:      win32
+[debug] [2024-05-26T20:27:39.315Z] Node Version:  v20.13.1
+[debug] [2024-05-26T20:27:39.315Z] Time:          Mon May 27 2024 05:27:39 GMT+0900 (대한민국 표준시)
+[debug] [2024-05-26T20:27:39.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-26T20:27:39.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-26T20:27:39.508Z] > authorizing via signed-in user (leveldatplus@gmail.com)
+[debug] [2024-05-26T20:27:39.509Z] [iam] checking project webhotplace-1cce1 for permissions ["firebase.projects.get"]
+[debug] [2024-05-26T20:27:39.511Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/webhotplace-1cce1:testIamPermissions [none]
+[debug] [2024-05-26T20:27:39.511Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/webhotplace-1cce1:testIamPermissions x-goog-quota-user=projects/webhotplace-1cce1
+[debug] [2024-05-26T20:27:39.511Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/webhotplace-1cce1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-26T20:27:40.285Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/webhotplace-1cce1:testIamPermissions 200
+[debug] [2024-05-26T20:27:40.286Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/webhotplace-1cce1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-26T20:27:40.286Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 [none]
+[debug] [2024-05-26T20:27:40.650Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 200
+[debug] [2024-05-26T20:27:40.650Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 {"projectId":"webhotplace-1cce1","projectNumber":"331407528116","displayName":"WebHotPlace","name":"projects/webhotplace-1cce1","resources":{"hostingSite":"webhotplace-1cce1","storageBucket":"webhotplace-1cce1.appspot.com","locationId":"asia-northeast3"},"state":"ACTIVE","etag":"1_fa7f304c-2e98-4b62-aa37-5e2dfb434a61"}
+[info] 
+[info] === Serving from 'C:\Users\level\Desktop\WEB Firebase'...
+[info] 
+[debug] [2024-05-26T20:27:40.654Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/webhotplace-1cce1/sites 
+[debug] [2024-05-26T20:27:41.330Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/webhotplace-1cce1/sites 200
+[debug] [2024-05-26T20:27:41.330Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/webhotplace-1cce1/sites {"sites":[{"name":"projects/webhotplace-1cce1/sites/webhotplace-1cce1","defaultUrl":"https://webhotplace-1cce1.web.app","appId":"1:331407528116:web:b4f6a50ec1587b9c4707e1","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-26T20:27:41.331Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1/webApps/1:331407528116:web:b4f6a50ec1587b9c4707e1/config [none]
+[debug] [2024-05-26T20:27:42.335Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1/webApps/1:331407528116:web:b4f6a50ec1587b9c4707e1/config 200
+[debug] [2024-05-26T20:27:42.335Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1/webApps/1:331407528116:web:b4f6a50ec1587b9c4707e1/config {"projectId":"webhotplace-1cce1","appId":"1:331407528116:web:b4f6a50ec1587b9c4707e1","storageBucket":"webhotplace-1cce1.appspot.com","locationId":"asia-northeast3","apiKey":"AIzaSyAWoNvLsqbVzfDMpoubR1e7t6Ny4Xxk0JY","authDomain":"webhotplace-1cce1.firebaseapp.com","messagingSenderId":"331407528116","measurementId":"G-N5Y9J96L8M"}
+[debug] [2024-05-26T20:27:42.345Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 [none]
+[debug] [2024-05-26T20:27:42.635Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 200
+[debug] [2024-05-26T20:27:42.635Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webhotplace-1cce1 {"projectId":"webhotplace-1cce1","projectNumber":"331407528116","displayName":"WebHotPlace","name":"projects/webhotplace-1cce1","resources":{"hostingSite":"webhotplace-1cce1","storageBucket":"webhotplace-1cce1.appspot.com","locationId":"asia-northeast3"},"state":"ACTIVE","etag":"1_fa7f304c-2e98-4b62-aa37-5e2dfb434a61"}
+[info] i  hosting[webhotplace-1cce1]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[webhotplace-1cce1]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [26/May/2024:20:28:05 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [26/May/2024:20:28:05 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [26/May/2024:20:28:05 +0000] "GET /testJS.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [26/May/2024:20:28:05 +0000] \"GET /testJS.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [26/May/2024:20:28:05 +0000] "GET /styleTest.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [26/May/2024:20:28:05 +0000] \"GET /styleTest.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [26/May/2024:20:28:06 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [26/May/2024:20:28:06 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\""}}
