@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+    <!-- CSS 로드 -->
+    <link href="successStyle.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- FireBase 연동 -->
+    <script type="text/babel" src="firebase.js"></script>
+
+    
+    <!-- JavaScript 로드 -->
+    <script defer type="module" src="success.js"></script>
+
+
+    <title>WHP</title>
+</head>
+
+
+
+<body>
+
+
+    
+    <!-- 이미지 호스팅 사이트에서 메인로고 불러오기 -->
+    <div class="mainLogo">
+        <a><img src="https://i.ibb.co/6N5mxSF/3-Main-Logo-Original-Bold.png" alt="3-Main-Logo-Original-Bold" /></a>
+    </div>
+
+    
+
+    <!-- 성공(메인) 문구 -->
+    <strong class="successPhrase"> 유사한 장소를 찾았습니다 ! </strong>
+
+
+    <!-- 이미지 업로드 컨테이너에 사용자가 업로드한 이미지를 불러오기 -->
+    <div class="imageContainer" id="uploadedImageContainer">
+            
+        <!-- 사용자 이미지 불러오기 -->
+        <img id="uploadedImage" src="" alt="uploadedImage">
+    </div>
+
+
+    <!-- 보조 문구 -->
+    <strong class="subPhrase"> 내가 찾고자 하는 장소 ! </strong>
+
+
+
+    <!-- 이미지 업로드 컨테이너에 분석 결과 이미지를 불러오기 -->
+    <div class="imageContainer" id="resultImageContainer">
+            
+        <!-- 분석 결과 이미지를 불러오기 -->
+        <img id="resultImage" src="https://firebasestorage.googleapis.com/v0/b/webhotplace-1cce1.appspot.com/o/images_database%2FN%E1%84%89%E1%85%A5%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%90%E1%85%A1%E1%84%8B%E1%85%AF.jpg?alt=media&token=19ec5103-d32e-4ce2-98b7-a1ae4c3fa88a" alt="resultImage">
+    </div>
+
+
+    <!-- 결과 문구 -->
+    <strong class="resultPhrase"> 근처에 유사한 장소: N서울타워 </strong>
+
+
+
+    <!-- 저작권 -->
+    <footer>
+        <b>Copyright  ©  2024  WebHotPlace  Inc,  All  rights  reserved.</b>
+    </footer>
+
+
+</body>
+</html>
